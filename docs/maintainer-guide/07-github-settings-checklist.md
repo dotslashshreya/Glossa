@@ -13,23 +13,14 @@ look for the nearest equivalent, or search GitHub Docs for the setting name.
 
 ## 1. Fill in the placeholders (on your computer, before pushing)
 
-Two placeholders are spread across the files:
+Done. Two placeholders were spread across the files:
 
-| Placeholder             | Replace with                                                                                                                                                                  |
-| ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `YOUR_GITHUB_USERNAME`  | Your GitHub username, e.g. `shreya-dev` (no `@`)                                                                                                                              |
-| `CONDUCT_CONTACT_EMAIL` | An email for Code of Conduct reports. **Tip:** create a separate address just for the project (e.g. a new free Gmail) rather than using your personal one. It will be public. |
+| Placeholder             | What it became                                                                                                                                                                   |
+| ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `YOUR_GITHUB_USERNAME`  | Your GitHub username, `dotslashshreya`                                                                                                                                           |
+| `CONDUCT_CONTACT_EMAIL` | Nothing: so that no email is published, the Code of Conduct asks people to report problems by opening an issue or by contacting the maintainer directly (decided on 2026-10-25). |
 
-In VS Code:
-
-1. Press **Ctrl+Shift+H** (Replace in Files).
-2. Type the placeholder in the first box and your value in the second.
-3. Click the **…** under the boxes, and in **files to exclude** type
-   `docs/maintainer-guide`. This guide talks _about_ the placeholders, so leave
-   it unchanged.
-4. Click **Replace All**, then repeat for the second placeholder.
-
-Check that none are left outside this guide:
+To check that none are left outside this guide:
 
 ```bash
 git grep -n -e YOUR_GITHUB_USERNAME -e CONDUCT_CONTACT_EMAIL -- . ":!docs/maintainer-guide"
