@@ -3,8 +3,9 @@
 Every file in the repository, what it does, and when you'd touch it. This
 chapter grows with each build step.
 
-> **Placeholders:** `YOUR_GITHUB_USERNAME` and `CONDUCT_CONTACT_EMAIL` appear in
-> several files until you fill them in ([chapter 07](07-github-settings-checklist.md), step 1).
+> **Placeholders:** none are left. `YOUR_GITHUB_USERNAME` became your username,
+> and the Code of Conduct takes reports without an email
+> ([chapter 07](07-github-settings-checklist.md), step 1).
 
 ## Root: project front matter
 
