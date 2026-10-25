@@ -261,12 +261,12 @@ The full list of what Glossa handles, and how each promise is enforced, is in
 
 ## Platform support and known limitations
 
-| Behaviour                      | Windows 10/11 (x64)                      | macOS 13+ (Apple Silicon)                        |
-| ------------------------------ | ---------------------------------------- | ------------------------------------------------ |
-| Hidden from screen capture     | Yes, on version 2004 (May 2020) or later | Depends on the macOS version and the meeting app |
-| Overlay above full-screen apps | Yes                                      | Yes, on every Space                              |
-| Microphone permission          | Windows privacy setting for desktop apps | macOS asks once                                  |
-| Installer                      | `.exe`, installs for you only (no admin) | `.dmg`                                           |
+| Behaviour                      | Windows 10/11 (x64)                      | macOS 13+ (Apple Silicon) |
+| ------------------------------ | ---------------------------------------- | ------------------------- |
+| Hidden from screen capture     | Yes, on version 2004 (May 2020) or later | Yes                       |
+| Overlay above full-screen apps | Yes                                      | Yes, on every Space       |
+| Microphone permission          | Windows privacy setting for desktop apps | macOS asks once           |
+| Installer                      | `.exe`, installs for you only (no admin) | `.dmg`                    |
 
 - **Intel Macs** aren't supported: the speech engine has no Intel build.
 - **Linux** works for development and unit tests, but isn't packaged.
