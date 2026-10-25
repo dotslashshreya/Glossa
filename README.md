@@ -215,12 +215,15 @@ side of your call from leaking into your mic.
 3. You still see the overlay. The recording or the people on the call should
    not.
 
-How well this works depends on the operating system, not on Glossa:
+Supported on:
 
 - **Windows 10 version 2004 (May 2020 update) or later:** the overlay is left
   out of screen capture.
-- **macOS:** depends on the macOS version and on how the meeting app captures
-  your screen. Some apps can still show it.
+- **macOS 13 or later:** the overlay is left out of screen capture.
+
+If it ever shows up in a recording or screen share,
+[open an issue](https://github.com/dotslashshreya/Glossa/issues/new/choose)
+with your OS version and the app you used.
 
 Always test with your own setup before an important call.
 
@@ -298,8 +301,9 @@ macOS.
 <details>
 <summary><b>The overlay shows up in my screen share</b></summary>
 
-On Windows, update to version 2004 or later. On macOS, it depends on your macOS
-version and the meeting app; see [Verify the invisibility](#verify-the-invisibility).
+On Windows, update to version 2004 or later. If it still shows up, on Windows or
+macOS, [open an issue](https://github.com/dotslashshreya/Glossa/issues/new/choose)
+with your OS version and the app you used.
 
 </details>
 
